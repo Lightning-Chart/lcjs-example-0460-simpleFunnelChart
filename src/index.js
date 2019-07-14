@@ -20,11 +20,11 @@ const {
 // Create a Funnel chart
 const funnel = lightningChart()
     .Funnel( { design: FunnelChartDesigns.LabelsOnSides } )
-    .setSliceMode( FunnelSliceModes.VariableHeight )
     .setTitle( 'Customer contacts progression' )
+    .setSliceMode( FunnelSliceModes.VariableHeight )
+    .setSliceGap( 0 )
     .setHeadWidth( 95 )
     .setNeckWidth( 40 )
-    .setSliceGap( 0 )
     .setLabelSide( FunnelLabelSide.Right )
 
 // Data for all slices

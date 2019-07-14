@@ -22,4 +22,65 @@ The chart can be created with a simple line of code.
 
 ```javascript
 // Create a new Funnel chart.
+const funnel = lightningChart().Funnel({ design: FunnelChartDesigns.LabelsOnSides })
 ```
+After creating the Funnel Chart the value for it can be set simply.
+```javascript
+funnel
+// Set title.
+    .setTitle( 'Customer contacts progression' )
+// Set Funnel chart slice mode.
+    .setSliceMode( FunnelSliceModes.VariableHeight )
+    .setSliceGap( 0 )
+    .setHeadWidth( 95 )
+    .setNeckWidth( 40 )
+    .setLabelSide( FunnelLabelSide.Right )
+
+// Data for slices
+const data = [
+    {
+        name: 'Prospects',
+        value: 2000
+        }, {
+        name: 'Contacts',
+        value: 1540
+        }, {
+        name: 'Leads',
+        value: 1095
+        }, {
+        name: 'Customers',
+        value: 549
+        }
+]
+// Add data to the slices
+const slices = data.forEach( ( slice ) => {
+    funnel.addSlice( slice.name, slice.value )
+} )
+```
+### API links
+
+* Name: [Link][],
+* Name: [Link][],
+* Name: [Link][],
+* Name: [Link][],
+* Name: [Link][],
+
+### Support
+
+If you notice an error in the example code, please open an issue on [GitHub][0] repository of the entire example.
+
+Official [API][1] documentation can be found on [Arction][2] website.
+
+If the docs and other materials do not solve your problem as well as implementation help is needed, ask on [StackOverflow][3] (tagged lcjs).
+
+If you think you found a bug in the LightningChart JavaScript library, please contact support@arction.com.
+
+Direct developer email support can be purchased through a [Support Plan][4] or by contacting sales@arction.com.
+
+© Arction Ltd 2009-2019. All rights reserved.
+
+[0]: https://github.com/Arction/
+[1]: https://www.arction.com/lightningchart-js-api-documentation/
+[2]: https://arction.com
+[3]: https://stackoverflow.com/questions/tagged/lcjs?sort=newest
+[4]: https://www.arction.com/support-services/

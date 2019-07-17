@@ -66,7 +66,7 @@ const slices = data.forEach( ( slice ) => {
 ### API links
 
 * Funnel Chart: [Funnel][],
-* Collection of Funnel Chart implementations: [FunnelChartDesigns][],
+* Collection of Funnel Chart implementations: [FunnelChartTypes][],
 * Options for selecting side of labels: [FunnelLabelSide][],
 * Collection of slice labels implementation: [SliceLabelFormatters][],
 * Collection of default color palletes: [ColorPalettes][],

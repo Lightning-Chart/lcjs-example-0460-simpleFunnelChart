@@ -6,7 +6,7 @@ const lcjs = require('@arction/lcjs')
 
 // Extract required parts from LightningChartJS.
 const { 
-    FunnelChartDesigns, 
+    FunnelChartTypes, 
     FunnelLabelSide, 
     SliceLabelFormatters,
     lightningChart,
@@ -18,8 +18,7 @@ const {
 } = lcjs
 
 // Create a Funnel chart
-const funnel = lightningChart()
-    .Funnel( { design: FunnelChartDesigns.LabelsOnSides } )
+const funnel = lightningChart().Funnel( { type: FunnelChartTypes.LabelsOnSides } )
     .setTitle( 'Customer contacts progression' )
     .setSliceMode( FunnelSliceModes.VariableHeight )
     .setSliceGap( 0 )
@@ -27,7 +26,7 @@ const funnel = lightningChart()
     .setNeckWidth( 40 )
     .setLabelSide( FunnelLabelSide.Right )
 
-// Data for all slices
+// Data for slices
 const data = [
     {
         name: 'Prospects',

@@ -32,16 +32,19 @@ const data = [
     {
         name: 'Prospects',
         value: 2000
-        }, {
+        }, 
+    {
         name: 'Contacts',
         value: 1540
-        }, {
+    },
+    {
         name: 'Leads',
         value: 1095
-        }, {
+    }, 
+    {
         name: 'Customers',
         value: 549
-        }
+    }
 ]
 // Add data to the slices
 const slices = data.forEach( ( slice ) => {

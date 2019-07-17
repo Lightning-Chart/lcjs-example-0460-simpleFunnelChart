@@ -24,12 +24,14 @@ The chart can be created with a simple line of code.
 // Create a new Funnel chart.
 const funnel = lightningChart().Funnel({ design: FunnelChartDesigns.LabelsOnSides })
 ```
+
 After creating the Funnel Chart the value for it can be set simply.
+
 ```javascript
 funnel
-// Set title.
+    // Set title.
     .setTitle( 'Customer contacts progression' )
-// Set Funnel chart slice mode.
+    // Set Funnel chart slice mode.
     .setSliceMode( FunnelSliceModes.VariableHeight )
     .setSliceGap( 0 )
     .setHeadWidth( 95 )
@@ -41,29 +43,33 @@ const data = [
     {
         name: 'Prospects',
         value: 2000
-        }, {
+    },
+    {
         name: 'Contacts',
         value: 1540
-        }, {
+    },
+    {
         name: 'Leads',
         value: 1095
-        }, {
+    },
+    {
         name: 'Customers',
         value: 549
-        }
+    }
 ]
 // Add data to the slices
 const slices = data.forEach( ( slice ) => {
     funnel.addSlice( slice.name, slice.value )
 } )
 ```
+
 ### API links
 
-* Name: [Link][],
-* Name: [Link][],
-* Name: [Link][],
-* Name: [Link][],
-* Name: [Link][],
+* Funnel Chart: [Funnel][],
+* Collection of Funnel Chart implementations: [FunnelChartDesigns][],
+* Options for selecting side of labels: [FunnelLabelSide][],
+* Collection of slice labels implementation: [SliceLabelFormatters][],
+* Collection of default color palletes: [ColorPalettes][],
 
 ### Support
 

@@ -58,9 +58,7 @@ const data = [
     }
 ]
 // Add data to the slices
-const slices = data.forEach( ( slice ) => {
-    funnel.addSlice( slice.name, slice.value )
-} )
+funnel.addSlices( data )
 ```
 
 ### API links

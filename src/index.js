@@ -46,9 +46,7 @@ const data = [
     }
 ]
 // Add data to the slices
-const slices = data.forEach( ( slice ) => {
-    funnel.addSlice( slice.name, slice.value )
-} )
+funnel.addSlices( data )
 
 // Set formatter of Slice Labels
 funnel.setLabelFormatter( SliceLabelFormatters.NamePlusValue )

@@ -68,6 +68,7 @@ funnel.addSlices( data )
 * Options for selecting side of labels: [FunnelLabelSide][],
 * Collection of slice labels implementation: [SliceLabelFormatters][],
 * Collection of default color palletes: [ColorPalettes][],
+* Solid FillStyle: [SolidFill][]
 
 ### Support
 

@@ -1,16 +1,16 @@
-/**
+/*
  * LightningChartJS example that shows the creation and styling of a Funnel chart.
  */
 // Import LightningChartJS
 const lcjs = require('@arction/lcjs')
 
 // Extract required parts from LightningChartJS.
-const { 
+const{ 
     FunnelChartTypes, 
     FunnelLabelSide, 
     SliceLabelFormatters,
     lightningChart,
-    SolidFill, 
+    SolidFillPalette, 
     FunnelSliceModes,  
     ColorPalettes,
     LegendBoxBuilders,
@@ -25,6 +25,7 @@ const funnel = lightningChart().Funnel( { type: FunnelChartTypes.LabelsOnSides }
     .setHeadWidth( 95 )
     .setNeckWidth( 40 )
     .setLabelSide( FunnelLabelSide.Right )
+    .setPadding( { bottom: 45 } )
 
 // Data for slices
 const data = [
@@ -51,11 +52,9 @@ funnel.addSlices( data )
 // Set formatter of Slice Labels
 funnel.setLabelFormatter( SliceLabelFormatters.NamePlusValue )
 
-// Create FillStyle Palette for Funnel (defines color of Slice filling)
-const palette = ColorPalettes.warm( 4 )
-// FillStyle Palette is a function which returns FillStyle based on index.
-const fillStylePalette = ( i ) => new SolidFill().setColor( palette( i ) )
-funnel.setSliceFillStyle(fillStylePalette )
+// Create warm Palette for Funnel (defines color of Slice filling)
+const palette = SolidFillPalette( ColorPalettes.warm, data.length )
+funnel.setSliceFillStyle(palette)
 
 // Add LegendBox and define the position in the chart
 const lb = funnel

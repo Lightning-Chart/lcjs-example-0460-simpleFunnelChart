@@ -87,7 +87,8 @@ funnel.setHeadWidth( 95 )
 // Set the width of the Funnel's bottom edge. This value can be from 0 to 100 (in percents).
 funnel.setNeckWidth( 40 )
 
-// If the labels are set to be placed on the side of the Funnel, we can determine the side they will be placed.
+// If the labels are set to be placed on the side of the Funnel,
+// we can determine the side they will be placed.
 funnel.setLabelSide( FunnelLabelSide.Right )
 ```
 

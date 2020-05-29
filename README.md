@@ -175,12 +175,12 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © Arction Ltd 2009-2020. All rights reserved.
 
 
-[Funnel]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/funnelchart.html
-[FunnelChartTypes]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/globals.html#funnelcharttypes
-[FunnelLabelSide]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/enums/funnellabelside.html
-[FunnelSliceModes]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/enums/funnelslicemodes.html
-[SliceLabelFormatters]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/globals.html#slicelabelformatters
-[ColorPalettes]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/globals.html#colorpalettes
-[SolidFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/solidfill.html
-[SolidLine]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/solidline.html
+[Funnel]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/funnelchart.html
+[FunnelChartTypes]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#funnelcharttypes
+[FunnelLabelSide]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/enums/funnellabelside.html
+[FunnelSliceModes]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/enums/funnelslicemodes.html
+[SliceLabelFormatters]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#slicelabelformatters
+[ColorPalettes]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#colorpalettes
+[SolidFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/solidfill.html
+[SolidLine]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/solidline.html
 

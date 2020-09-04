@@ -144,14 +144,14 @@ funnel.setLabelConnectorStyle(
 
 ## API Links
 
-* Funnel Chart: [Funnel]
-* Collection of Funnel Chart implementations: [FunnelChartTypes]
-* Options for selecting side of labels: [FunnelLabelSide]
-* Collection of modes for Funnel Slices: [FunnelSliceModes]
-* s label implementations: [SliceLabelFormatters]
-* Collection of default color palletes: [ColorPalettes]
-* Solid FillStyle: [SolidFill]
-* Solid Line: [SolidLine]
+* [Funnel Chart]
+* [Collection of Funnel Chart implementations]
+* [Options for selecting side of labels]
+* [Collection of modes for Funnel Slices]
+* [s label implementations]
+* [Collection of default color palletes]
+* [Solid FillStyle]
+* [Solid Line]
 
 
 ## Support
@@ -175,12 +175,12 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © Arction Ltd 2009-2020. All rights reserved.
 
 
-[Funnel]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/funnelchart.html
-[FunnelChartTypes]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#funnelcharttypes
-[FunnelLabelSide]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/enums/funnellabelside.html
-[FunnelSliceModes]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/enums/funnelslicemodes.html
-[SliceLabelFormatters]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#slicelabelformatters
-[ColorPalettes]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#colorpalettes
-[SolidFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/solidfill.html
-[SolidLine]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/solidline.html
+[Funnel Chart]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/classes/funnelchart.html
+[Collection of Funnel Chart implementations]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/globals.html#funnelcharttypes
+[Options for selecting side of labels]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/enums/funnellabelside.html
+[Collection of modes for Funnel Slices]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/enums/funnelslicemodes.html
+[s label implementations]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/globals.html#slicelabelformatters
+[Collection of default color palletes]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/globals.html#colorpalettes
+[Solid FillStyle]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/classes/solidfill.html
+[Solid Line]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/classes/solidline.html
 

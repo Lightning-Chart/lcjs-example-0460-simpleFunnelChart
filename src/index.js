@@ -14,11 +14,15 @@ const {
     FunnelSliceModes,
     ColorPalettes,
     LegendBoxBuilders,
-    UIOrigins
+    UIOrigins,
+    Themes
 } = lcjs
 
 // Create a Funnel chart
-const funnel = lightningChart().Funnel({ type: FunnelChartTypes.LabelsOnSides })
+const funnel = lightningChart().Funnel({
+    // theme: Themes.dark 
+    type: FunnelChartTypes.LabelsOnSides
+})
     .setTitle('Customer contacts progression')
     .setSliceMode(FunnelSliceModes.VariableHeight)
     .setSliceGap(0)

@@ -175,12 +175,12 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © Arction Ltd 2009-2020. All rights reserved.
 
 
-[Funnel Chart]: https://www.arction.com/lightningchart-js-api-documentation/v2.2.0/classes/funnelchart.html
-[Collection of Funnel Chart implementations]: https://www.arction.com/lightningchart-js-api-documentation/v2.2.0/globals.html#funnelcharttypes
-[Options for selecting side of labels]: https://www.arction.com/lightningchart-js-api-documentation/v2.2.0/enums/funnellabelside.html
-[Collection of modes for Funnel Slices]: https://www.arction.com/lightningchart-js-api-documentation/v2.2.0/enums/funnelslicemodes.html
-[s label implementations]: https://www.arction.com/lightningchart-js-api-documentation/v2.2.0/globals.html#slicelabelformatters
-[Collection of default color palletes]: https://www.arction.com/lightningchart-js-api-documentation/v2.2.0/globals.html#colorpalettes
-[Solid FillStyle]: https://www.arction.com/lightningchart-js-api-documentation/v2.2.0/classes/solidfill.html
-[Solid Line]: https://www.arction.com/lightningchart-js-api-documentation/v2.2.0/classes/solidline.html
+[Funnel Chart]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/classes/funnelchart.html
+[Collection of Funnel Chart implementations]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/globals.html#funnelcharttypes
+[Options for selecting side of labels]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/enums/funnellabelside.html
+[Collection of modes for Funnel Slices]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/enums/funnelslicemodes.html
+[s label implementations]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/globals.html#slicelabelformatters
+[Collection of default color palletes]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/globals.html#colorpalettes
+[Solid FillStyle]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/classes/solidfill.html
+[Solid Line]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/classes/solidline.html
 

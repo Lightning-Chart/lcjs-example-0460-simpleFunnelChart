@@ -62,8 +62,5 @@ funnel.setSliceFillStyle(palette)
 
 // Add LegendBox and define the position in the chart
 const lb = funnel
-    .addLegendBox(LegendBoxBuilders.VerticalLegendBox)
-    .setPosition({ x: 0, y: 0 })
-    .setOrigin(UIOrigins.LeftBottom)
-    .setMargin(5)
-lb.add(funnel, false)
+    .addLegendBox(LegendBoxBuilders.HorizontalLegendBox)
+lb.add(funnel, { disposeOnClick: false })

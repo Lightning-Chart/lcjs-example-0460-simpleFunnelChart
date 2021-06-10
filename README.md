@@ -1,6 +1,6 @@
-# Simple Funnel Chart
+# JavaScript Funnel Chart
 
-![Simple Funnel Chart](simpleFunnel.png)
+![JavaScript Funnel Chart](simpleFunnel.png)
 
 This demo application belongs to the set of examples for LightningChart JS, data visualization library for JavaScript.
 

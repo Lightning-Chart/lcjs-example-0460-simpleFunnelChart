@@ -10,17 +10,14 @@ const {
     FunnelLabelSide,
     SliceLabelFormatters,
     lightningChart,
-    SolidFillPalette,
     FunnelSliceModes,
-    ColorPalettes,
     LegendBoxBuilders,
-    UIOrigins,
     Themes
 } = lcjs
 
 // Create a Funnel chart
 const funnel = lightningChart().Funnel({
-    // theme: Themes.dark 
+    // theme: Themes.darkGold 
     type: FunnelChartTypes.LabelsOnSides
 })
     .setTitle('Customer contacts progression')
@@ -56,11 +53,12 @@ funnel.addSlices(data)
 // Set formatter of Slice Labels
 funnel.setLabelFormatter(SliceLabelFormatters.NamePlusValue)
 
-// Create warm Palette for Funnel (defines color of Slice filling)
-const palette = SolidFillPalette(ColorPalettes.warm, data.length)
-funnel.setSliceFillStyle(palette)
-
 // Add LegendBox and define the position in the chart
 const lb = funnel
     .addLegendBox(LegendBoxBuilders.HorizontalLegendBox)
+    // Dispose example UI elements automatically if they take too much space. This is to avoid bad UI on mobile / etc. devices.
+    .setAutoDispose({
+        type: 'max-width',
+        maxWidth: 0.80,
+    })
 lb.add(funnel, { disposeOnClick: false })

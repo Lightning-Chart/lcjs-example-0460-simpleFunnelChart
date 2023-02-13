@@ -5,21 +5,14 @@
 const lcjs = require('@arction/lcjs')
 
 // Extract required parts from LightningChartJS.
-const {
-    FunnelChartTypes,
-    FunnelLabelSide,
-    SliceLabelFormatters,
-    lightningChart,
-    FunnelSliceModes,
-    LegendBoxBuilders,
-    Themes
-} = lcjs
+const { FunnelChartTypes, FunnelLabelSide, SliceLabelFormatters, lightningChart, FunnelSliceModes, LegendBoxBuilders, Themes } = lcjs
 
 // Create a Funnel chart
-const funnel = lightningChart().Funnel({
-    // theme: Themes.darkGold 
-    type: FunnelChartTypes.LabelsOnSides
-})
+const funnel = lightningChart()
+    .Funnel({
+        // theme: Themes.darkGold
+        type: FunnelChartTypes.LabelsOnSides,
+    })
     .setTitle('Customer contacts progression')
     .setSliceMode(FunnelSliceModes.VariableHeight)
     .setSliceGap(0)
@@ -32,20 +25,20 @@ const funnel = lightningChart().Funnel({
 const data = [
     {
         name: 'Prospects',
-        value: 2000
+        value: 2000,
     },
     {
         name: 'Contacts',
-        value: 1540
+        value: 1540,
     },
     {
         name: 'Leads',
-        value: 1095
+        value: 1095,
     },
     {
         name: 'Customers',
-        value: 549
-    }
+        value: 549,
+    },
 ]
 // Add data to the slices
 funnel.addSlices(data)
@@ -59,6 +52,6 @@ const lb = funnel
     // Dispose example UI elements automatically if they take too much space. This is to avoid bad UI on mobile / etc. devices.
     .setAutoDispose({
         type: 'max-width',
-        maxWidth: 0.80,
+        maxWidth: 0.8,
     })
-lb.add(funnel, { disposeOnClick: false })
+lb.add(funnel, { toggleVisibilityOnClick: false })

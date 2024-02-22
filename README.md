@@ -157,7 +157,7 @@ Official [API documentation][1] can be found on [LightningChart][2] website.
 
 If the docs and other materials do not solve your problem as well as implementation help is needed, ask on [StackOverflow][3] (tagged lightningchart).
 
-If you think you found a bug in the LightningChart JavaScript library, please contact support@lightningchart.com.
+If you think you found a bug in the LightningChart JavaScript library, please contact sales@lightningchart.com.
 
 Direct developer email support can be purchased through a [Support Plan][4] or by contacting sales@lightningchart.com.
 
@@ -170,12 +170,12 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © LightningChart Ltd 2009-2022. All rights reserved.
 
 
-[Funnel Chart]: https://lightningchart.com/js-charts/api-documentation/v5.0.1/classes/FunnelChart.html
-[Collection of Funnel Chart implementations]: https://lightningchart.com/js-charts/api-documentation/v5.0.1/variables/FunnelChartTypes-1.html
-[Options for selecting side of labels]: https://lightningchart.com/js-charts/api-documentation/v5.0.1/enums/FunnelLabelSide.html
-[Collection of modes for Funnel Slices]: https://lightningchart.com/js-charts/api-documentation/v5.0.1/enums/FunnelSliceModes.html
-[s label implementations]: https://lightningchart.com/js-charts/api-documentation/v5.0.1/variables/SliceLabelFormatters.html
-[Collection of default color palletes]: https://lightningchart.com/js-charts/api-documentation/v5.0.1/variables/ColorPalettes.html
-[Solid FillStyle]: https://lightningchart.com/js-charts/api-documentation/v5.0.1/classes/SolidFill.html
-[Solid Line]: https://lightningchart.com/js-charts/api-documentation/v5.0.1/classes/SolidLine.html
+[Funnel Chart]: https://lightningchart.com/js-charts/api-documentation/v5.1.0/classes/FunnelChart.html
+[Collection of Funnel Chart implementations]: https://lightningchart.com/js-charts/api-documentation/v5.1.0/variables/FunnelChartTypes-1.html
+[Options for selecting side of labels]: https://lightningchart.com/js-charts/api-documentation/v5.1.0/enums/FunnelLabelSide.html
+[Collection of modes for Funnel Slices]: https://lightningchart.com/js-charts/api-documentation/v5.1.0/enums/FunnelSliceModes.html
+[s label implementations]: https://lightningchart.com/js-charts/api-documentation/v5.1.0/variables/SliceLabelFormatters.html
+[Collection of default color palletes]: https://lightningchart.com/js-charts/api-documentation/v5.1.0/variables/ColorPalettes.html
+[Solid FillStyle]: https://lightningchart.com/js-charts/api-documentation/v5.1.0/classes/SolidFill.html
+[Solid Line]: https://lightningchart.com/js-charts/api-documentation/v5.1.0/classes/SolidLine.html
 

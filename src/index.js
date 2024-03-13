@@ -10,7 +10,7 @@ const { FunnelChartTypes, FunnelLabelSide, SliceLabelFormatters, lightningChart,
 // Create a Funnel chart
 const funnel = lightningChart()
     .Funnel({
-        // theme: Themes.darkGold
+        theme: Themes[new URLSearchParams(window.location.search).get('theme') || 'darkGold'] || undefined,
         type: FunnelChartTypes.LabelsOnSides,
     })
     .setTitle('Customer contacts progression')

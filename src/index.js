@@ -8,7 +8,9 @@ const lcjs = require('@arction/lcjs')
 const { FunnelChartTypes, FunnelLabelSide, SliceLabelFormatters, lightningChart, FunnelSliceModes, LegendBoxBuilders, Themes } = lcjs
 
 // Create a Funnel chart
-const funnel = lightningChart()
+const funnel = lightningChart({
+            resourcesBaseUrl: new URL(document.head.baseURI).origin + new URL(document.head.baseURI).pathname + 'resources/',
+        })
     .Funnel({
         theme: Themes[new URLSearchParams(window.location.search).get('theme') || 'darkGold'] || undefined,
         type: FunnelChartTypes.LabelsOnSides,

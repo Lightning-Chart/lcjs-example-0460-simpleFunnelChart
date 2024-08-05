@@ -2,7 +2,7 @@
  * LightningChartJS example that shows the creation and styling of a Funnel chart.
  */
 // Import LightningChartJS
-const lcjs = require('@arction/lcjs')
+const lcjs = require('@lightningchart/lcjs')
 
 // Extract required parts from LightningChartJS.
 const { FunnelChartTypes, FunnelLabelSide, SliceLabelFormatters, lightningChart, FunnelSliceModes, LegendBoxBuilders, Themes } = lcjs

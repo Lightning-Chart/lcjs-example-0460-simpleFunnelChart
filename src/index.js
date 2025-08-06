@@ -5,23 +5,28 @@
 const lcjs = require('@lightningchart/lcjs')
 
 // Extract required parts from LightningChartJS.
-const { FunnelChartTypes, FunnelLabelSide, SliceLabelFormatters, lightningChart, FunnelSliceModes, LegendBoxBuilders, Themes } = lcjs
+const { FunnelChartTypes, FunnelLabelSide, SliceLabelFormatters, lightningChart, FunnelSliceModes, Themes } = lcjs
 
-// Create a Funnel chart
-const funnel = lightningChart({
+const lc = lightningChart({
             resourcesBaseUrl: new URL(document.head.baseURI).origin + new URL(document.head.baseURI).pathname + 'resources/',
         })
-    .Funnel({
-        theme: Themes[new URLSearchParams(window.location.search).get('theme') || 'darkGold'] || undefined,
-        type: FunnelChartTypes.LabelsOnSides,
-    })
+const dashboard = lc.Dashboard({
+    numberOfColumns: 2,
+    numberOfRows: 1,
+    theme: Themes[new URLSearchParams(window.location.search).get('theme') || 'darkGold'] || undefined,
+})
+
+const funnel1 = dashboard
+    .createFunnelChart({ columnIndex: 0, rowIndex: 0, type: FunnelChartTypes.LabelsOnSides })
     .setTitle('Customer contacts progression')
-    .setSliceMode(FunnelSliceModes.VariableHeight)
-    .setSliceGap(0)
-    .setHeadWidth(95)
-    .setNeckWidth(40)
+    .setLabelSide(FunnelLabelSide.Left)
+    .setSliceMode(FunnelSliceModes.VariableWidth)
+
+const funnel2 = dashboard
+    .createFunnelChart({ columnIndex: 1, rowIndex: 0, type: FunnelChartTypes.LabelsOnSides })
+    .setTitle('Customer contacts progression')
     .setLabelSide(FunnelLabelSide.Right)
-    .setPadding({ bottom: 45 })
+    .setSliceMode(FunnelSliceModes.VariableHeight)
 
 // Data for slices
 const data = [
@@ -42,18 +47,9 @@ const data = [
         value: 549,
     },
 ]
-// Add data to the slices
-funnel.addSlices(data)
 
-// Set formatter of Slice Labels
-funnel.setLabelFormatter(SliceLabelFormatters.NamePlusValue)
+funnel1.addSlices(data)
+funnel1.setLabelFormatter(SliceLabelFormatters.NamePlusValue)
 
-// Add LegendBox and define the position in the chart
-const lb = funnel
-    .addLegendBox(LegendBoxBuilders.HorizontalLegendBox)
-    // Dispose example UI elements automatically if they take too much space. This is to avoid bad UI on mobile / etc. devices.
-    .setAutoDispose({
-        type: 'max-width',
-        maxWidth: 0.8,
-    })
-lb.add(funnel, { toggleVisibilityOnClick: false })
+funnel2.addSlices(data)
+funnel2.setLabelFormatter(SliceLabelFormatters.NamePlusValue)

@@ -167,15 +167,15 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 [3]: https://stackoverflow.com/questions/tagged/lightningchart
 [4]: https://lightningchart.com/support-services/
 
-© LightningChart Ltd 2009-2022. All rights reserved.
+© LightningChart Ltd 2009-2025. All rights reserved.
 
 
-[Funnel Chart]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/classes/FunnelChart.html
-[Collection of Funnel Chart implementations]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/variables/FunnelChartTypes-1.html
-[Options for selecting side of labels]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/enums/FunnelLabelSide.html
-[Collection of modes for Funnel Slices]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/enums/FunnelSliceModes.html
-[s label implementations]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/variables/SliceLabelFormatters.html
-[Collection of default color palletes]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/variables/ColorPalettes.html
-[Solid FillStyle]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/classes/SolidFill.html
-[Solid Line]: https://lightningchart.com/js-charts/api-documentation/v8.0.0/classes/SolidLine.html
+[Funnel Chart]: https://lightningchart.com/js-charts/api-documentation/v8.0.1/classes/FunnelChart.html
+[Collection of Funnel Chart implementations]: https://lightningchart.com/js-charts/api-documentation/v8.0.1/variables/FunnelChartTypes-1.html
+[Options for selecting side of labels]: https://lightningchart.com/js-charts/api-documentation/v8.0.1/enums/FunnelLabelSide.html
+[Collection of modes for Funnel Slices]: https://lightningchart.com/js-charts/api-documentation/v8.0.1/enums/FunnelSliceModes.html
+[s label implementations]: https://lightningchart.com/js-charts/api-documentation/v8.0.1/variables/SliceLabelFormatters.html
+[Collection of default color palletes]: https://lightningchart.com/js-charts/api-documentation/v8.0.1/variables/ColorPalettes.html
+[Solid FillStyle]: https://lightningchart.com/js-charts/api-documentation/v8.0.1/classes/SolidFill.html
+[Solid Line]: https://lightningchart.com/js-charts/api-documentation/v8.0.1/classes/SolidLine.html
 

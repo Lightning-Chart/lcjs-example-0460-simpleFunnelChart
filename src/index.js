@@ -28,9 +28,8 @@ const funnel1 = dashboard
     .setSliceMode(FunnelSliceModes.VariableWidth)
 
 const funnel2 = dashboard
-    .createFunnelChart({ columnIndex: 1, rowIndex: 0, type: FunnelChartTypes.LabelsOnSides })
+    .createFunnelChart({ columnIndex: 1, rowIndex: 0, type: FunnelChartTypes.LabelsInsideSlices })
     .setTitle('Customer contacts progression')
-    .setLabelSide(FunnelLabelSide.Right)
     .setSliceMode(FunnelSliceModes.VariableHeight)
 
 // Data for slices

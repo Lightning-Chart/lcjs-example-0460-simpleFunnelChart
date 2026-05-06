@@ -34,7 +34,7 @@ If no type is given, the Funnel defaults to showing labels on side of Funnel.
 
 ```javascript
 // Create a Funnel Chart with labels on the side.
-const funnel = lightningChart().Funnel({ type: FunnelChartTypes.LabelsOnSide })
+const funnel = lightningChart().Funnel({ type: FunnelChartTypes.LabelsOnSides })
 
 // Create a Funnel Chart with labels inside of slices.
 const funnel = lightningChart().Funnel({
@@ -143,7 +143,7 @@ funnel.setLabelConnectorStyle(
 * [Collection of Funnel Chart implementations]
 * [Options for selecting side of labels]
 * [Collection of modes for Funnel Slices]
-* [s label implementations]
+* [Slice label implementations]
 * [Collection of default color palletes]
 * [Solid FillStyle]
 * [Solid Line]
@@ -170,12 +170,12 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © LightningChart Ltd 2009-2026. All rights reserved.
 
 
-[Funnel Chart]: https://lightningchart.com/js-charts/api-documentation/v8.2.0/classes/FunnelChart.html
-[Collection of Funnel Chart implementations]: https://lightningchart.com/js-charts/api-documentation/v8.2.0/variables/FunnelChartTypes-1.html
-[Options for selecting side of labels]: https://lightningchart.com/js-charts/api-documentation/v8.2.0/enums/FunnelLabelSide.html
-[Collection of modes for Funnel Slices]: https://lightningchart.com/js-charts/api-documentation/v8.2.0/enums/FunnelSliceModes.html
-[s label implementations]: https://lightningchart.com/js-charts/api-documentation/v8.2.0/variables/SliceLabelFormatters.html
-[Collection of default color palletes]: https://lightningchart.com/js-charts/api-documentation/v8.2.0/variables/ColorPalettes.html
-[Solid FillStyle]: https://lightningchart.com/js-charts/api-documentation/v8.2.0/classes/SolidFill.html
-[Solid Line]: https://lightningchart.com/js-charts/api-documentation/v8.2.0/classes/SolidLine.html
+[Funnel Chart]: https://lightningchart.com/js-charts/api-documentation/v8.3.0/classes/FunnelChart.html
+[Collection of Funnel Chart implementations]: https://lightningchart.com/js-charts/api-documentation/v8.3.0/variables/FunnelChartTypes-1.html
+[Options for selecting side of labels]: https://lightningchart.com/js-charts/api-documentation/v8.3.0/enums/FunnelLabelSide.html
+[Collection of modes for Funnel Slices]: https://lightningchart.com/js-charts/api-documentation/v8.3.0/enums/FunnelSliceModes.html
+[Slice label implementations]: https://lightningchart.com/js-charts/api-documentation/v8.3.0/variables/SliceLabelFormatters.html
+[Collection of default color palletes]: https://lightningchart.com/js-charts/api-documentation/v8.3.0/variables/ColorPalettes.html
+[Solid FillStyle]: https://lightningchart.com/js-charts/api-documentation/v8.3.0/classes/SolidFill.html
+[Solid Line]: https://lightningchart.com/js-charts/api-documentation/v8.3.0/classes/SolidLine.html
 
